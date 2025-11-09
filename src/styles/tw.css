@@ -11,3 +11,5 @@
   --color-brand-500: #44766d;
   --color-brand-600: #78b7ab;
 }
+
+@custom-variant dark (&:where(.dark, .dark *));
